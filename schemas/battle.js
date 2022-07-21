@@ -26,14 +26,24 @@ export default {
     {
       title: "Votes",
       name: "votes",
-      type: "reference",
-      to: [{ type: "vote" }],
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "votes" }],
+        },
+      ],
     },
     {
       title: "Opinions",
       name: "opinions",
-      type: "reference",
-      to: [{ type: "opinion" }],
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "opinions" }],
+        },
+      ],
     },
   ],
 };
