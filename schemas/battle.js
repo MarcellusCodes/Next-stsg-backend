@@ -30,7 +30,7 @@ export default {
       of: [
         {
           type: "reference",
-          to: [{ type: "votes" }],
+          to: [{ type: "vote" }],
         },
       ],
     },
@@ -41,7 +41,7 @@ export default {
       of: [
         {
           type: "reference",
-          to: [{ type: "opinions" }],
+          to: [{ type: "opinion" }],
         },
       ],
     },
