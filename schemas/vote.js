@@ -9,10 +9,9 @@ export default {
       title: "User_Id",
     },
     {
-      name: "battle",
-      type: "reference",
-      title: "Battle",
-      to: [{ type: "battle" }],
+      name: "hero",
+      type: "string",
+      title: "Hero",
     },
   ],
 };
