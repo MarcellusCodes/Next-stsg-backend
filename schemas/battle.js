@@ -23,27 +23,5 @@ export default {
       type: "image",
       title: "Hero_Two_Img",
     },
-    {
-      title: "Votes",
-      name: "votes",
-      type: "array",
-      of: [
-        {
-          type: "reference",
-          to: [{ type: "vote" }],
-        },
-      ],
-    },
-    {
-      title: "Opinions",
-      name: "opinions",
-      type: "array",
-      of: [
-        {
-          type: "reference",
-          to: [{ type: "opinion" }],
-        },
-      ],
-    },
   ],
 };

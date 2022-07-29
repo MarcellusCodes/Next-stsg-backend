@@ -13,5 +13,11 @@ export default {
       type: "string",
       title: "Hero",
     },
+    {
+      name: "battle",
+      type: "reference",
+      title: "Battle",
+      to: [{ type: "battle" }],
+    },
   ],
 };
