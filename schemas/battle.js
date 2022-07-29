@@ -23,5 +23,10 @@ export default {
       type: "image",
       title: "Hero_Two_Img",
     },
+    {
+      name: "active_voting",
+      type: "date",
+      title: "Active_Voting",
+    },
   ],
 };
